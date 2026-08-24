@@ -87,3 +87,35 @@ n = 8
 Profits:(P1, P2, P3, P4, P5, P6, P7, P8) = (25, 45, 10, 35, 15, 40, 20, 30)
 
 Deadlines:(d1, d2, d3, d4, d5, d6, d7, d8) = (4, 2, 1, 3, 4, 1, 3, 2)
+
+
+---
+
+
+MAKE A CHANGE
+
+1)
+Denominations
+{1, 3, 4, 6}
+
+Make a change of
+Rs. 15
+
+2)
+Denominations:
+{1, 2, 5, 7}
+
+Make a change of:
+Rs. 11
+
+---
+
+0/1 KNAPSCAK
+
+| Object     |  1 |  2 |  3 |  4 |
+| ---------- | -: | -: | -: | -: |
+| **Value**  | 10 | 40 | 30 | 50 |
+| **Weight** |  1 |  3 |  4 |  5 |
+
+Capacity 8
+
