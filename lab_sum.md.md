@@ -33,7 +33,13 @@ HUFFMAN CODING ALGORITHM
 fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia
  
 
+<<<<<<< HEAD
 ---
+=======
+###### fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia
+
+
+>>>>>>> 6d0cde9 (added lab sum)
 
 
 FRACTIONAL KNAPSACK ALGORITHM
@@ -52,6 +58,7 @@ Capacity 70
 | F    |   160 |     40 |
 | G    |   100 |     12 |
 
+<<<<<<< HEAD
 2.Using all scenarios
 
 Knapsack Capacity = 50
@@ -118,4 +125,263 @@ Rs. 11
 | **Weight** |  1 |  3 |  4 |  5 |
 
 Capacity 8
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/AvaniPatel75/DAA\_Lab\_Manual
+
+lab\_sum.md  --> knapsack(2) and job scheduling(2)
+
+extra\_sum --> Huffman(1) and knapsack(1)
+
+extra1.jpeg --> prims(1) and Kruskal(1)
+
+extra2.jpeg --> Dijkstra(1)
+
+
+
+Total sum : 9
+
+Marks = sums done properly + 1
+
+
+
+"Compulsory" Evaluation Based on this above examples
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### JOB SCHEDULING Algo
+
+
+
+
+
+
+
+
+
+
+
+
+
+1--->
+
+n = 10
+
+Profits:
+
+(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10)
+
+= (35, 60, 20, 45, 15, 50, 30, 40, 25, 55)
+
+
+
+Deadlines:
+
+(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10)
+
+= (3, 2, 5, 2, 2, 3, 5, 4, 4, 1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2--->
+
+n = 8
+
+Profits:
+
+(P1, P2, P3, P4, P5, P6, P7, P8)
+
+= (25, 45, 10, 35, 15, 40, 20, 30)
+
+
+
+Deadlines:
+
+(d1, d2, d3, d4, d5, d6, d7, d8)
+
+= (4, 2, 1, 3, 4, 1, 3, 2)
+
+
+
+
+
+
+
+https://github.com/AvaniPatel75/DAA\_Lab\_Manual
+
+
+
+extra\_sum --> Huffman and knapsack
+
+extra1.jpeg --> prims and Kruskal
+
+extra2.jpeg --> Dijkstra
+
+
+
+
+
+#### 
+
+#### 
+
+
+
+
+
+#### Make a change
+
+1)Denominations {1, 3, 4, 6} Make a change of Rs. 15
+
+
+
+2)Denominations: {1, 2, 5, 7} Make a change of: Rs. 11
+
+
+
+**3)Denominations: {2, 3, 5, 8} Make a change of: Rs. 14**
+
+**(put infinity where change is not possible)**
+
+write all steps of algorithm tracing
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#### 0/1 Knapsak
+
+
+
+1\)
+
+| Object     |  1 |  2 |  3 |  4 |
+
+| ---------- | -: | -: | -: | -: |
+
+| \*\*Value\*\*  | 10 | 40 | 30 | 50 |
+
+| \*\*Weight\*\* |  1 |  3 |  4 |  5 |
+
+
+
+Capacity 8
+
+
+
+2\)
+
+| Object     |  1 |  2 |  3 |  4 |
+
+| ---------- | -: | -: | -: | -: |
+
+| \*\*Value\*\*  | 10 | 12 | 15 | 20 |
+
+| \*\*Weight\*\* |  1 |  2 |  2 |  3 |
+
+
+
+capacity=5
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+LONGEST COMMON SUBSEQUENCE
+
+
+
+1\)
+
+O = A B C D E F G
+
+P = X A Y B Z C W D
+>>>>>>> 6d0cde9 (added lab sum)
 

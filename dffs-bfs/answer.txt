@@ -1,0 +1,35 @@
+
+Graph 1 (A–H)
+
+BFS: A, B, C, D, E, F, G, H
+
+DFS: A, B, D, H, E, F, C, G
+
+
+
+Graph 2 (I–R)
+
+BFS: I, J, K, L, M, N, O, P, Q, R
+
+DFS: I, J, L, P, M, N, K, O, R, Q
+
+
+Graph-3 (0-11)
+
+BFS: 0, 1, 2, 3, 7, 8, 4, 5, 10, 6, 9, 11
+
+DFS: 0, 1, 2, 8, 10, 3, 5, 7, 4, 6, 9, 11
+
+
+
+Graph 4 (Image 1: A–I) (Starting at Node A, alphabetical order)
+
+BFS: A, B, D, E, C, H, F, G, I
+
+DFS: A, B, C, E, D, H, G, I, F
+
+Graph 5 (Image 2: A–M) (Starting at Node A, alphabetical order)
+
+BFS: A, B, C, D, E, F, G, H, I, J, K, L, M
+
+DFS: A, B, D, H, E, F, C, G, J, M, L, I, K
