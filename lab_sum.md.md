@@ -1,5 +1,6 @@
 # DAA LAB QUESTIONS
-
+-------
+# LAB-4
 ## 1. HEAP SORT
 
 ### Question 1
@@ -14,8 +15,8 @@ Apply Heap Sort on:
 
 `[12, -3, 7, 12, 5, 0, 15, -1, 8]`
 
----
-
+------
+# LAB-5
 ## 2. QUICK SORT
 
 ### Question 1
@@ -30,8 +31,6 @@ Apply Quick Sort on:
 
 `[64, 34, 25, 12, 22, 11]`
 
----
-
 ## 3. MERGE SORT
 
 ### Question 1
@@ -40,26 +39,9 @@ Apply Merge Sort on:
 
 `[90, 12, 45, 3, 67, 21, 8]`
 
----
+------
 
-## 4. HUFFMAN CODING ALGORITHM
-
-### Question 1
-
-Construct the Huffman Tree and find the Huffman codes for:
-
-| Character |  A |  B |  C |  D |  E |  F |  G |  H |
-| --------- | -: | -: | -: | -: | -: | -: | -: | -: |
-| Frequency |  4 |  7 |  5 | 12 |  9 | 14 | 16 | 20 |
-
-### Question 2
-
-Apply Huffman Coding to:
-
-`fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia`
-
----
-
+## LAB-8
 ## 5. FRACTIONAL KNAPSACK ALGORITHM
 
 ### Question 1
@@ -79,6 +61,24 @@ Using the Fractional Knapsack Algorithm, find the maximum value.
 | G    |   100 |     12 |
 
 ---
+## LAB-9
+
+## 4. HUFFMAN CODING ALGORITHM
+
+### Question 1
+
+Construct the Huffman Tree and find the Huffman codes for:
+
+| Character |  A |  B |  C |  D |  E |  F |  G |  H |
+| --------- | -: | -: | -: | -: | -: | -: | -: | -: |
+| Frequency |  4 |  7 |  5 | 12 |  9 | 14 | 16 | 20 |
+
+### Question 2
+
+Apply Huffman Coding to:
+
+`fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia`
+
 
 ## 6. JOB SCHEDULING ALGORITHM
 
@@ -114,7 +114,9 @@ Using the Fractional Knapsack Algorithm, find the maximum value.
 
 `= (4, 2, 1, 3, 4, 1, 3, 2)`
 
----
+-----
+
+## LAB-10
 
 ## 7. MAKE A CHANGE
 
@@ -140,7 +142,6 @@ Using the Fractional Knapsack Algorithm, find the maximum value.
 
 **Write all steps of algorithm tracing.**
 
----
 
 ## 8. 0/1 KNAPSACK
 
@@ -163,6 +164,7 @@ Using the Fractional Knapsack Algorithm, find the maximum value.
 **Capacity = 5**
 
 ---
+# LAB-11
 
 ## 9. LONGEST COMMON SUBSEQUENCE (LCS)
 
@@ -193,6 +195,8 @@ Also give:
 2. Calculations of matrices
 
 ---
+
+# LAB-14
 
 ## 11. RABIN-KARP ALGORITHM
 
