@@ -1,52 +1,67 @@
-HEAP SORT EXAMPLE
+# DAA LAB QUESTIONS
 
-[15, 8, 20, 5, 10, 12, 6]
+## 1. HEAP SORT
 
-[12, -3, 7, 12, 5, 0, 15, -1, 8]
+### Question 1
 
---- 
+Apply Heap Sort on:
+`[15, 8, 20, 5, 10, 12, 6]`
 
-QUICK SORT
+### Question 2
 
-[50, 18, 72, 9, 35, 61, 27]
-
-[64, 34, 25, 12, 22, 11]
-
----
-
-MERGE SORT
-
-[90, 12, 45, 3, 67, 21, 8]
+Apply Heap Sort on:
+`[12, -3, 7, 12, 5, 0, 15, -1, 8]`
 
 ---
 
-HUFFMAN CODING ALGORITHM
+## 2. QUICK SORT
 
-1:
+### Question 1
+
+Apply Quick Sort on:
+`[50, 18, 72, 9, 35, 61, 27]`
+
+### Question 2
+
+Apply Quick Sort on:
+`[64, 34, 25, 12, 22, 11]`
+
+---
+
+## 3. MERGE SORT
+
+### Question 1
+
+Apply Merge Sort on:
+`[90, 12, 45, 3, 67, 21, 8]`
+
+---
+
+## 4. HUFFMAN CODING ALGORITHM
+
+### Question 1
+
+Construct the Huffman Tree and find the Huffman codes for:
+
 | Character | A | B | C | D  | E | F  | G  | H  |
 | --------- | - | - | - | -- | - | -- | -- | -- |
 | Frequency | 4 | 7 | 5 | 12 | 9 | 14 | 16 | 20 |
+
+### Question 2
+
+Apply Huffman Coding to:
+
+`fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia`
+
 ---
 
+## 5. FRACTIONAL KNAPSACK ALGORITHM
 
-2:
-fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia
- 
+### Question 1
 
-<<<<<<< HEAD
----
-=======
-###### fgbec dfeba cfdge befcb agfdc efdbe bfagd cfhbc eia
+Using the Fractional Knapsack Algorithm, find the maximum value.
 
-
->>>>>>> 6d0cde9 (added lab sum)
-
-
-FRACTIONAL KNAPSACK ALGORITHM
-
-1.Using all scenarios
-
-Capacity 70
+**Capacity = 70**
 
 | Item | Value | Weight |
 | ---- | ----: | -----: |
@@ -58,10 +73,11 @@ Capacity 70
 | F    |   160 |     40 |
 | G    |   100 |     12 |
 
-<<<<<<< HEAD
-2.Using all scenarios
+### Question 2
 
-Knapsack Capacity = 50
+Using the Fractional Knapsack Algorithm, find the maximum value.
+
+**Capacity = 50**
 
 | Object | Value | Weight |
 | ------ | ----: | -----: |
@@ -71,317 +87,104 @@ Knapsack Capacity = 50
 | D      |   180 |     25 |
 | E      |   140 |     10 |
 
+---
+
+## 6. JOB SCHEDULING ALGORITHM
+
+### Question 1
+
+**n = 10**
+
+**Profits:**
+`(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10) = (35, 60, 20, 45, 15, 50, 30, 40, 25, 55)`
+
+**Deadlines:**
+`(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) = (3, 2, 5, 2, 2, 3, 5, 4, 4, 1)`
+
+Find the optimal job sequence and maximum profit.
+
+### Question 2
+
+**n = 8**
+
+**Profits:**
+`(P1, P2, P3, P4, P5, P6, P7, P8) = (25, 45, 10, 35, 15, 40, 20, 30)`
+
+**Deadlines:**
+`(d1, d2, d3, d4, d5, d6, d7, d8) = (4, 2, 1, 3, 4, 1, 3, 2)`
+
+Find the optimal job sequence and maximum profit.
 
 ---
 
+## 7. MAKE CHANGE
 
-JOB SCHEDULING ALGORITHM
+### Question 1
 
+Using the Make Change algorithm:
 
-1)
+**Denominations:** `{1, 3, 4, 6}`
 
-n = 10
+**Amount:** `Rs. 15`
 
-Profits:(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10) = (35, 60, 20, 45, 15, 50, 30, 40, 25, 55)
+### Question 2
 
-Deadlines:(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10) = (3, 2, 5, 2, 2, 3, 5, 4, 4, 1)
+Using the Make Change algorithm:
 
+**Denominations:** `{1, 2, 5, 7}`
 
-2)
+**Amount:** `Rs. 11`
 
-n = 8
+### Question 3
 
-Profits:(P1, P2, P3, P4, P5, P6, P7, P8) = (25, 45, 10, 35, 15, 40, 20, 30)
+Using the Make Change algorithm:
 
-Deadlines:(d1, d2, d3, d4, d5, d6, d7, d8) = (4, 2, 1, 3, 4, 1, 3, 2)
+**Denominations:** `{2, 3, 5, 8}`
 
+**Amount:** `Rs. 14`
 
----
-
-
-MAKE A CHANGE
-
-1)
-Denominations
-{1, 3, 4, 6}
-
-Make a change of
-Rs. 15
-
-2)
-Denominations:
-{1, 2, 5, 7}
-
-Make a change of:
-Rs. 11
+**Put infinity (∞) where change is not possible.**
 
 ---
 
-0/1 KNAPSCAK
+## 8. 0/1 KNAPSACK
+
+### Question 1
 
 | Object     |  1 |  2 |  3 |  4 |
 | ---------- | -: | -: | -: | -: |
 | **Value**  | 10 | 40 | 30 | 50 |
 | **Weight** |  1 |  3 |  4 |  5 |
 
-Capacity 8
-=======
+**Capacity = 8**
 
+Find the maximum value using the 0/1 Knapsack algorithm.
 
-
-
-
-
-
-
-
-
-
-
-
-
-https://github.com/AvaniPatel75/DAA\_Lab\_Manual
-
-lab\_sum.md  --> knapsack(2) and job scheduling(2)
-
-extra\_sum --> Huffman(1) and knapsack(1)
-
-extra1.jpeg --> prims(1) and Kruskal(1)
-
-extra2.jpeg --> Dijkstra(1)
-
-
-
-Total sum : 9
-
-Marks = sums done properly + 1
-
-
-
-"Compulsory" Evaluation Based on this above examples
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### JOB SCHEDULING Algo
-
-
-
-
-
-
-
-
-
-
-
-
-
-1--->
-
-n = 10
-
-Profits:
-
-(P1, P2, P3, P4, P5, P6, P7, P8, P9, P10)
-
-= (35, 60, 20, 45, 15, 50, 30, 40, 25, 55)
-
-
-
-Deadlines:
-
-(d1, d2, d3, d4, d5, d6, d7, d8, d9, d10)
-
-= (3, 2, 5, 2, 2, 3, 5, 4, 4, 1)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-2--->
-
-n = 8
-
-Profits:
-
-(P1, P2, P3, P4, P5, P6, P7, P8)
-
-= (25, 45, 10, 35, 15, 40, 20, 30)
-
-
-
-Deadlines:
-
-(d1, d2, d3, d4, d5, d6, d7, d8)
-
-= (4, 2, 1, 3, 4, 1, 3, 2)
-
-
-
-
-
-
-
-https://github.com/AvaniPatel75/DAA\_Lab\_Manual
-
-
-
-extra\_sum --> Huffman and knapsack
-
-extra1.jpeg --> prims and Kruskal
-
-extra2.jpeg --> Dijkstra
-
-
-
-
-
-#### 
-
-#### 
-
-
-
-
-
-#### Make a change
-
-1)Denominations {1, 3, 4, 6} Make a change of Rs. 15
-
-
-
-2)Denominations: {1, 2, 5, 7} Make a change of: Rs. 11
-
-
-
-**3)Denominations: {2, 3, 5, 8} Make a change of: Rs. 14**
-
-**(put infinity where change is not possible)**
-
-write all steps of algorithm tracing
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-#### 0/1 Knapsak
-
-
-
-1\)
+### Question 2
 
 | Object     |  1 |  2 |  3 |  4 |
-
 | ---------- | -: | -: | -: | -: |
+| **Value**  | 10 | 12 | 15 | 20 |
+| **Weight** |  1 |  2 |  2 |  3 |
 
-| \*\*Value\*\*  | 10 | 40 | 30 | 50 |
+**Capacity = 5**
 
-| \*\*Weight\*\* |  1 |  3 |  4 |  5 |
+Find the maximum value using the 0/1 Knapsack algorithm.
 
+---
 
+## 9. LONGEST COMMON SUBSEQUENCE (LCS)
 
-Capacity 8
+### Question 1
 
+Find the Longest Common Subsequence using Dynamic Programming:
 
+`O = A B C D E F G`
 
-2\)
+`P = X A Y B Z C W D`
 
-| Object     |  1 |  2 |  3 |  4 |
-
-| ---------- | -: | -: | -: | -: |
-
-| \*\*Value\*\*  | 10 | 12 | 15 | 20 |
-
-| \*\*Weight\*\* |  1 |  2 |  2 |  3 |
-
-
-
-capacity=5
+---
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-LONGEST COMMON SUBSEQUENCE
-
-
-
-1\)
-
-O = A B C D E F G
-
-P = X A Y B Z C W D
->>>>>>> 6d0cde9 (added lab sum)
-
+Find the shortest paths using Dijkstra's Algorithm for the graph given in `extra2.jpeg`.
